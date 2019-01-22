@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb", "prettier/react"],
+  "plugins": [
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "linebreak-style": 0,
+    "import/no-unresolved": "off"
+  },
+  "parser": "babel-eslint"
+}
